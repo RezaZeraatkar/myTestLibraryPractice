@@ -1,5 +1,5 @@
 import uniqueRandomArray from 'unique-random-array';
-import starWarsNames from './starwars-names.json';
+import actornames from './actornames.json';
 
-export const all = starWarsNames;
-export const random = uniqueRandomArray(starWarsNames);
+export const all = actornames;
+export const random = uniqueRandomArray(actornames);

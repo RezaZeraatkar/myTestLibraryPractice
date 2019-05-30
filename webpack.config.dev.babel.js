@@ -7,9 +7,9 @@ export default () => ({
   entry: join(__dirname, 'src', 'index'),
   output: {
     path: join(__dirname, 'dist'),
-    filename: 'starWarsNames.umd.js',
+    filename: 'actornames.umd.js',
     libraryTarget: 'umd',
-    library: 'starWarsNames'
+    library: 'actornames'
   },
   module: {
     rules: [{

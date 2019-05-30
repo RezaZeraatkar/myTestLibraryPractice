@@ -16,7 +16,7 @@ function isArrayOfStrings (arr) {
   return arr.every(item => typeof item === 'string');
 }
 
-describe('starwars-names', () => {
+describe('actornames', () => {
   it('should have a list of all available names', () => {
     // starWarsNames.all
     // eslint-disable-next-line no-unused-expressions
