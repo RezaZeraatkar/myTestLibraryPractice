@@ -4,7 +4,7 @@ import {
 import {
   all,
   random
-} from '.';
+} from 'index.js';
 
 function isIncludeIn (arr) {
   return function is (item) {
