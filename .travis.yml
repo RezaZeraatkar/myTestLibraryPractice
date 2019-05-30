@@ -10,3 +10,5 @@ branches:
 notifications:
   email: r.zeraatkar1992@gmail.com
 script: npm run val
+after_success:
+  - npm run report-coverage
